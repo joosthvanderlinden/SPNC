@@ -1,0 +1,4 @@
+.DS_Store
+build/
+.ipynb_checkpoints
+README.pdf
