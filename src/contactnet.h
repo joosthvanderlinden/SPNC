@@ -9,13 +9,13 @@
 // This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
 // WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 //
-// Author:  Joost van der Linden <joostv@student.unimelb.edu.au>
+// Author(s)     : Joost van der Linden <joosthvanderlinden@gmail.com>
 //
 // Please cite the following paper if you use this code:
 //
-//          J.H. van der Linden, A. Sufian, G. Narsilio, A.R. Russell, A. Tordesillas,
-//          (2016), Delaunay-based pore network construction for granular packings,
-//          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//          J.H. van der Linden, A. Sufian, G. Narsilio, A.R. Russell, A. 
+//          Tordesillas, A Computational Geometry Approach to Pore Network 
+//          Construction for Granular Packings (2017)
 
 
 #ifndef _contactnet_h_included_
