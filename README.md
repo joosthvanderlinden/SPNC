@@ -1,12 +1,10 @@
 # SPNC - Sphere Packing Network Construction
 ## Introduction
-SPNC is a program to construct network from an assembly of spheres. The pore network represents pores (as nodes) and throats (as edges). For the contact network, particle centroids form the nodes and an edge is assigned if two particles are in contact. As such, constructing the contact network is relatively straightforward. For the construction of the pore network, SPNC uses the Delaunay triangulation. Because individual tetrahedra do not necessarily encapsulate pores, a merging criterion is adopted, as introduced in [1]. 
+SPNC is a program to construct network from an assembly of spheres. The pore network represents pores (as nodes) and throats (as edges). For the contact network, particle centroids form the nodes and an edge is assigned if two particles are in contact. As such, constructing the contact network is relatively straightforward. For the construction of the pore network, SPNC uses the Delaunay triangulation. Because individual tetrahedra do not necessarily encapsulate pores, a merging criterion is adopted.
 
-For more details, please read the MANUAL and the source code. The code is commented throughout and made deliberately verbose in some sections (e.g. main.cpp) to walk the reader through the steps of the network construction. If you use this program, or parts of it, please cite our publication [2].
+For more details, please read the MANUAL and the source code. The code is commented throughout and made deliberately verbose in some sections (e.g. main.cpp) to walk the reader through the steps of the network construction. If you use this program, or parts of it, please cite our publication [1].
 
-[1] J.H. van der Linden, G.A. Narsilio, A. Tordesillas, Machine learning framework for analysis of transport through complex networks in porous, granular media: A focus on permeability, Physical Review E 94 (2) (2016) 022904.
-
-[2] J.H. van der Linden, A. Sufian, G. Narsilio, A.R. Russell, A. Tordesillas, Delaunay-based pore network construction for granular packings, XXXXXXXXXX (2017).
+[1] J.H. van der Linden, A. Sufian, G. Narsilio, A.R. Russell, A. Tordesillas, A Computational Geometry Approach to Pore Network Construction for Granular Packings (2017).
 
 ## Requirements & Compilation
 SPNC is implemented in C++(11) and relies heavily on the computational geometry library `CGAL`. In turn, `CGAL` requires `Boost`. To compile the code with `CMake`, an example `CMakeLists.txt` file is provided. Assuming the right compiler is available and `CMake`, `CGAL` and `Boost` are installed, compile SPNC on OSX/Unix as follows:
