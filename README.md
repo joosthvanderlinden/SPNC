@@ -4,7 +4,7 @@ SPNC is a program to construct network from an assembly of spheres. The pore net
 
 For more details, please read the MANUAL and the source code. The code is commented throughout and made deliberately verbose in some sections (e.g. main.cpp) to walk the reader through the steps of the network construction. If you use this program, or parts of it, please cite our publication [1].
 
-[1] J.H. van der Linden, A. Sufian, G. Narsilio, A.R. Russell, A. Tordesillas, A Computational Geometry Approach to Pore Network Construction for Granular Packings (2017).
+[1] J.H. van der Linden, A. Sufian, G.A. Narsilio, A.R. Russell, A. Tordesillas, "A computational geometry approach to pore network construction for granular packings," Computers & Geosciences, vol. 112, pp. 133-143, 2018
 
 ## Requirements & Compilation
 SPNC is implemented in C++(11) and relies heavily on the computational geometry library `CGAL`. In turn, `CGAL` requires `Boost`. To compile the code with `CMake`, an example `CMakeLists.txt` file is provided. Assuming the right compiler is available and `CMake`, `CGAL` and `Boost` are installed, compile SPNC on OSX/Unix as follows:
